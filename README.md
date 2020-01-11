@@ -4,6 +4,10 @@
 
 Uses shared web workers in order to use one websocket connection in multiple tabs (windows).
 
+## Installation
+
+`npm install shared-ws`
+
 ## Usage
 
 ```javascript
