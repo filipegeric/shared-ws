@@ -13,7 +13,7 @@ Uses shared web workers in order to use one websocket connection in multiple tab
 ```javascript
 const SharedWebSocket = require("shared-ws");
 
-const socket = new SharedWebSocket("http://localhost:8080");
+const socket = new SharedWebSocket("ws://localhost:8080");
 
 socket.onopen = e => {
   console.log(e);
